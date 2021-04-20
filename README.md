@@ -1,3 +1,3 @@
-# CIHeroku DLeon
+# CIHeroku Sreyes
 
-CI en Heroku proyecto by David Leon desde GitLab
+CI en Heroku proyecto by Sebastian Reyes desde GitHub

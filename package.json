@@ -1,31 +1,28 @@
 {
-  "name": "homepage-pereirajs",
-  "version": "0.2.0",
-  "description": "página web de pereirajs.org",
+  "name": "ciheroku-dleon",
+  "version": "1.0.0",
+  "description": "CI en Heroku proyecto by David Leon desde GitLab",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/http-server --cors"
+    "start": "node index.js",
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sreyesb/Heroku.git"
+    "url": "git+https://github.com/sreyesb/Heroku.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sreyesb/Heroku/issues"
   },
-  "homepage": "https://github.com/sreyesb/Heroku",
+  "homepage": "https://github.com/sreyesb/Heroku#readme",
   "dependencies": {
-    "http-server": "~0.8.0"
-  },
-  "subdomain": "pereirajs",
-  "domains": [
-    "pereirajs.org",
-    "www.pereirajs.org"
-  ],
-  "engines": {
-    "node": "0.10.x"
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "supertest": "^6.1.3"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "ciheroku-dleon",
   "version": "1.0.0",
-  "description": "CI en Heroku proyecto by David Leon desde GitLab",
+  "description": "CI en Heroku proyecto by Sebastian Reyes desde GitLab",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

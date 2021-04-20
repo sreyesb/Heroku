@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/pereirajs/pagina.git"
+    "url": "https://github.com/sreyesb/Heroku.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pereirajs/pagina/issues"
+    "url": "https://github.com/sreyesb/Heroku/issues"
   },
-  "homepage": "https://github.com/pereirajs/pagina",
+  "homepage": "https://github.com/sreyesb/Heroku",
   "dependencies": {
     "http-server": "~0.8.0"
   },
